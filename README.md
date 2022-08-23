@@ -9,26 +9,26 @@ then we install ubuntu iso https://ubuntu.com/download/desktop/thank-you?version
 
 then we open Vmware , and go to File > New Virtual Machine Wizard
 
-image
+![image](https://user-images.githubusercontent.com/110176361/186041031-a8e98294-0153-4264-b63c-749a9cba9e11.png)
 
 select Typical
-image
+
 
 select installer disc image file (iso) and upload the ubunto iso file
-image
 
 then write Name and passowrd
-image
+
 
 and write the virtual name and change the file Location if you want
-image
+
 
 then you can change the disk size by defult it will be 20.0 .
-image
+
 
 after setup Ubuntu we open terminal , and for we setup ros we need to write this command on terminal
 
 sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+![image](https://user-images.githubusercontent.com/110176361/186041975-90ab1223-a1d6-4d96-a0e4-37b5b9aaa02b.png)
 
 sudo apt install curl # if you haven't already installed curl curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -
 
